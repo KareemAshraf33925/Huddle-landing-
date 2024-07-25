@@ -1,0 +1,628 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    overflow-x: hidden;
+   
+}
+body{
+    font-family: "Poppins", "Open Sans", sans-serif;
+}
+
+:root{
+   --Pink: hsl(322, 100%, 66%);
+--LightPink: hsl(321, 100%, 78%);
+--LightRed: hsl(0, 100%, 63%);
+--VeryDarkCyan: hsl(192, 100%, 9%);
+--VeryPaleBlue: hsl(207, 100%, 98%);
+}
+/* start header */
+#head .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:40px 60px;
+}
+#head .navbar img{
+    width: 150px;
+}
+#head .navbar button{
+    background-color: transparent;
+    color: var(--Pink);
+    padding: 10px 30px;
+    border: 2px solid var(--Pink);
+    border-radius: 20px;
+    cursor: pointer;
+}
+#head .container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    place-items:center;
+    text-align: center;
+    margin: 15rem 5rem 5rem 5rem;
+}
+#head .container h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+#head .container p{
+    margin: 20px 0px;
+}
+#head .container  button{
+    background-color: var(--Pink);
+    color: #fff;
+    padding: 20px 0px;
+    width: 350px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 20px 0px 80px 0px;
+}
+#head .container .counter{
+    margin-top:100px;
+    display: grid;
+   grid-template-columns: repeat(2,2fr);
+   column-gap:500px;
+    
+}
+#head .container .counter .right h2{
+    font-size: 60px;
+    font-weight: 800;
+    font-family:"Open Sans" ;
+
+}
+#head .container .counter .right img{
+    width:30px;
+    margin-right: 130px;
+}
+#head .container .counter .right p{
+    opacity: 0.5;
+}
+#head .container .counter .left img{
+    width:30px;
+    margin-right: 130px;
+}
+#head .container .counter .left h2{
+    font-size: 60px;
+    font-weight: 800;
+    font-family:"Open Sans";
+
+}
+#head .container .counter .left p{
+    opacity: 0.5;
+}
+
+
+
+/* end header */
+/* start growtogether */
+.top-grow img{
+    width: 100%;
+   
+
+}
+.bottom-grow img{
+    width: 100%;
+    
+  
+
+} 
+
+#growtogether{
+    background-color: var(--VeryPaleBlue);
+
+    
+}
+#growtogether .container {
+   
+    margin:-1rem 5rem 0rem 5rem;
+}
+
+#growtogether .container .grow-items{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap:100px;
+   
+
+}
+
+#growtogether .container .grow-items .left-item h3{
+    font-weight: 600;
+    font-size: 30px;
+    
+
+}
+#growtogether .container .grow-items .left-item p{
+    margin-top:20px;
+    opacity: 0.5;
+    font-size: 15px;
+}
+#growtogether .container .grow-items .right-item img{
+    width:100%;
+    
+}
+
+/* end growtogether */
+/* start flowingconversations */
+#flowing .container{
+    margin: 15rem 5rem 5rem 5rem;
+  
+}
+#flowing .container .flow-items{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap:100px;
+   
+
+}
+#flowing .container .flow-items .right-item{
+    text-align: center;
+}
+
+#flowing .container .flow-items .right-item h3{
+    font-weight: 600;
+    font-size: 45px;
+    margin-top: 100px;
+    
+
+}
+#flowing .container .flow-items .right-item p{
+    margin-top:20px;
+    opacity: 0.5;
+    font-size: 15px;
+   
+}
+#flowing .container .flow-items .left-item img{
+    width: 100%;
+
+
+}
+
+
+
+
+
+/* end flowingconversations */
+/* start users */
+.top-users img{
+    width: 100%;
+}
+.bottom-users img{
+    width: 100%;
+
+}
+#users{
+    background-color: var(--VeryPaleBlue);
+}
+#users .container{
+    margin: -1rem 5rem 0rem 5rem;
+  
+}
+#users .container .users-items{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    column-gap:100px;
+   
+
+}
+
+#users .container .users-items .left-item h3{
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 100px;
+
+}
+#users .container .users-items .left-item p{
+    margin-top:20px;
+    opacity: 0.5;
+    font-size: 15px;
+}
+#users .container .users-items .right-item img{
+    width:100%;
+}
+/* end users */
+/* start community */
+#community .container{
+    margin: 25rem 5rem 5rem 5rem;
+    
+
+}
+
+#community .container .communit{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    text-align: center;
+
+}
+#community .container .communit h2{
+    font-size:40px;
+    font-weight: 800;
+    font-family:"Open Sans";
+
+}
+#community .container .communit button{
+    background-color: var(--Pink);
+    color: #fff;
+    padding: 20px 0px;
+    width: 300px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 30px 0px 80px 0px;
+   
+    
+
+}
+/* end community */
+/* start contact */
+#contact{
+     background-color: var(--VeryDarkCyan);
+   
+    height:50vh;
+}
+#contact .container{
+    margin: -1rem 5rem 5rem 5rem;
+    
+
+}
+
+#contact .container .about{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+}
+#contact .container .about .right img{
+    width: 150px;
+}
+#contact .container .about .right> p{
+    color: #fff;
+    font-size: 14px;
+    margin: 20px 0px;
+    
+}
+#contact .container .about .right div{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 10px 0px;
+}
+#contact .container .about .right div img{
+    width:15px;
+    height: 15px;
+
+}
+#contact .container .about .right div p{
+    color: #fff;
+    margin-left: 15px;
+    font-size: 13px;
+    opacity: 0.8;
+}
+#contact .container .about .right a{
+    margin: 0px 10px;
+}
+#contact .container .about .right a i{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 40px;
+}
+#contact .container .about .left  h2{
+    color: #fff;
+
+}
+#contact .container .about .left p{
+    color: #fff;
+    margin:20px 0px;
+}
+#contact .container .about .left input{
+    padding: 10px 25px;
+    border-radius:5px;
+    border: none;
+    margin-top: 20px;
+}
+#contact .container .about .left button{
+    background-color: var(--Pink);
+    color: #fff;
+    padding:12px 35px;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+.top-foot img{
+   width: 100%;
+  
+   
+  
+}
+
+
+/* end contact */
+@media(max-width:600px){
+    #head .container{
+       
+     display:flex;
+     flex-direction: column;
+        align-items: center;
+    
+      
+    }
+    #head .navbar img{
+        width: 120px;
+    }
+    #head .navbar button{
+        
+        padding: 5px 25px;
+        
+    }
+    #head .container h1{
+        font-size: 20px;
+        font-weight: 900;
+       
+       
+    }
+    #head .container p{
+        font-size: 12px;
+    }
+    #head .container  button{
+        
+        padding: 10px 0px;
+        width: 200px;
+        
+    }
+    #head .container img{
+        width:500px ;
+    }
+    #head .container .counter{
+       
+        display: grid;
+      
+       column-gap:200px;
+        
+    }
+    #head .container .counter .right h2{
+        font-size: 40px;
+       
+    }
+    #head .container .counter .right img{
+        width:20px;
+        margin-left: 50px;
+       
+    }
+    #head .container .counter .left img{
+        width:20px;
+        margin-left: 50px;
+    }
+    #head .container .counter .left h2{
+        font-size: 40px;
+       
+    
+    }
+    #growtogether .container .grow-items .left-item h3{
+       
+        font-size: 20px;
+        
+    
+    }
+    #growtogether .container .grow-items .left-item p{
+       font-size: 10px; 
+    }
+    #growtogether .container {
+        
+        padding: 40px 0px;
+    }
+    #growtogether .container .grow-items .right-item img{
+        width:100%;
+        
+    }
+    #flowing .container .flow-items .right-item h3{
+        
+        font-size:20px;
+        width: 100%;
+    }
+    #flowing .container .flow-items .right-item p{
+      
+        font-size: 10px;
+       
+    }
+    #flowing .container .flow-items{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    #users .container .users-items .left-item h3{
+        
+        font-size: 20px;
+       
+    
+    }
+    #users .container .users-items .left-item p{
+        
+        font-size: 10px;
+    }
+    #users .container {
+        padding: 40px 0px;
+       
+      
+    }
+    #users .container .users-items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+
+    }
+    #users .container .users-items .right-item img{
+       margin-top: 40px;
+    }
+    #community .container{
+        margin: 5rem 5rem 5rem 5rem;
+        
+    
+    }
+    #community .container .communit h2{
+        font-size:20px;
+       
+    
+    }
+    #community .container .communit button{
+       
+        padding: 10px 0px;
+        width: 200px;
+        
+       
+        
+    
+    }
+    #contact .container .about .right img{
+        width: 120px;
+    }
+    #contact .container .about .right> p{
+        
+        font-size: 12px;
+       
+        
+    }
+    #contact .container .about .left  h2{
+       font-size: 20px;
+    
+    }
+    #contact .container .about .left p{
+        font-size: 12px;
+    }
+    #contact .container .about .left input{
+        padding: 5px 10px;
+        
+        margin-top: 10px;
+    }
+    #contact .container .about .left button{
+        padding: 5px 10px;
+      float: right;
+        
+    }
+    #contact .container .about .right a i{
+       
+        margin-top: 20px;
+
+    }
+    #contact .container{
+        margin-top: -10px ;
+        padding: 40px 0px 20px 0px;
+        
+    
+    }
+
+
+
+}
+@media(max-width:375px){
+
+   #head .container img{
+    width: 375px;
+   }
+   #head .container .counter{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    
+}
+#growtogether .container .grow-items{
+    display: flex;
+   flex-direction: column-reverse;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+    
+
+}
+#growtogether .container .grow-items .left-item h3{
+  
+    margin-top: 40px;
+    
+
+}
+.top-grow img{
+    width: 110%;
+   
+
+}
+#flowing .container .flow-items{
+   
+    display: flex;
+   flex-direction: column-reverse;
+   justify-content: center;
+   align-items: center;
+   
+
+}
+#flowing .container .flow-items .right-item h3{
+   
+   text-wrap: nowrap;
+   
+    
+
+}
+#flowing .container .flow-items .left-item img{
+   margin-top: 20px;
+
+
+}
+#users .container .users-items{
+    display: flex;
+   flex-direction: column-reverse;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  
+   
+
+}
+.top-users img{
+    width: 120%;
+}
+#users .container .users-items .left-item p{
+  font-size: 13px;
+  width: 200px;
+   font-weight: 600;
+}
+#contact{
+  
+   height:100%;
+}
+#contact .container .about{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    
+    
+    }
+    #contact .container .about .left button{
+      
+        padding:10px 20px;
+       
+       
+        margin: 10px 0px;
+    
+    }
+    #contact .container .about .left input{
+        padding: 12px 20px;
+       
+    }
+
+  
+
+}
+
+
+
